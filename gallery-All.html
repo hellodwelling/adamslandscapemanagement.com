@@ -1076,6 +1076,27 @@
                 <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
                     <button @click="activeImage = 2; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
+                            <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/eb35e6c0-3533-4976-b3a7-b8e50b8fa400.jpeg" alt="" /> -->
+                             
+                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/eb35e6c0-3533-4976-b3a7-b8e50b8fa400.jpeg" alt="All Photos for Adams Landscape Management Group LLC. in Loganville, GA" loading="lazy"/> 
+                                <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/eb35e6c0-3533-4976-b3a7-b8e50b8fa400.jpeg" alt="" /> -->
+                                <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/x/media/eb35e6c0-3533-4976-b3a7-b8e50b8fa400.jpeg" alt="" /> -->
+                            
+                        </div>
+
+                        <div class="space-y-1 text-lg font-medium leading-6">
+                            <p class="line-clamp-3"></p>
+                            <h3 class="text-primary"></h3>
+                        </div>
+                    </button>
+                </div>
+            </li>
+        
+            <!-- Single Item - We only want to show 3 items on mobile so we check the current index and attach a hidden class if necessary -->
+            <li x-cloak x-data="{ shown: false }" x-intersect.full="shown = true" class=" block ">
+                <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
+                    <button @click="activeImage = 3; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
+                        <div class="aspect-w-3 aspect-h-2">
                             <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/79dcce96-8b78-4bd6-846f-148cad5241c4.jpeg" alt="" /> -->
                              
                                 <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/79dcce96-8b78-4bd6-846f-148cad5241c4.jpeg" alt="All Photos for Adams Landscape Management Group LLC. in Loganville, GA" loading="lazy"/> 
@@ -1095,34 +1116,13 @@
             <!-- Single Item - We only want to show 3 items on mobile so we check the current index and attach a hidden class if necessary -->
             <li x-cloak x-data="{ shown: false }" x-intersect.full="shown = true" class=" block ">
                 <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
-                    <button @click="activeImage = 3; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
+                    <button @click="activeImage = 4; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
                             <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/036698b8-65ab-40ab-aa68-55067eb53cc8.jpeg" alt="" /> -->
                              
                                 <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/036698b8-65ab-40ab-aa68-55067eb53cc8.jpeg" alt="All Photos for Adams Landscape Management Group LLC. in Loganville, GA" loading="lazy"/> 
                                 <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/036698b8-65ab-40ab-aa68-55067eb53cc8.jpeg" alt="" /> -->
                                 <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/x/media/036698b8-65ab-40ab-aa68-55067eb53cc8.jpeg" alt="" /> -->
-                            
-                        </div>
-
-                        <div class="space-y-1 text-lg font-medium leading-6">
-                            <p class="line-clamp-3"></p>
-                            <h3 class="text-primary"></h3>
-                        </div>
-                    </button>
-                </div>
-            </li>
-        
-            <!-- Single Item - We only want to show 3 items on mobile so we check the current index and attach a hidden class if necessary -->
-            <li x-cloak x-data="{ shown: false }" x-intersect.full="shown = true" class=" block ">
-                <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
-                    <button @click="activeImage = 4; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
-                        <div class="aspect-w-3 aspect-h-2">
-                            <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/eb35e6c0-3533-4976-b3a7-b8e50b8fa400.jpeg" alt="" /> -->
-                             
-                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/eb35e6c0-3533-4976-b3a7-b8e50b8fa400.jpeg" alt="All Photos for Adams Landscape Management Group LLC. in Loganville, GA" loading="lazy"/> 
-                                <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/eb35e6c0-3533-4976-b3a7-b8e50b8fa400.jpeg" alt="" /> -->
-                                <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/x/media/eb35e6c0-3533-4976-b3a7-b8e50b8fa400.jpeg" alt="" /> -->
                             
                         </div>
 
@@ -2377,7 +2377,7 @@
                                     <!-- Transition Wrapper 1 -->
                                     <li class="flex flex-col" x-show="activeImage === 2">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/79dcce96-8b78-4bd6-846f-148cad5241c4.jpeg" alt="All Photos for Adams Landscape Management Group LLC. in Loganville, GA" loading="lazy"/>
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/eb35e6c0-3533-4976-b3a7-b8e50b8fa400.jpeg" alt="All Photos for Adams Landscape Management Group LLC. in Loganville, GA" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
@@ -2385,7 +2385,7 @@
                                     <!-- Transition Wrapper 1 -->
                                     <li class="flex flex-col" x-show="activeImage === 3">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/036698b8-65ab-40ab-aa68-55067eb53cc8.jpeg" alt="All Photos for Adams Landscape Management Group LLC. in Loganville, GA" loading="lazy"/>
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/79dcce96-8b78-4bd6-846f-148cad5241c4.jpeg" alt="All Photos for Adams Landscape Management Group LLC. in Loganville, GA" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
@@ -2393,7 +2393,7 @@
                                     <!-- Transition Wrapper 1 -->
                                     <li class="flex flex-col" x-show="activeImage === 4">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/eb35e6c0-3533-4976-b3a7-b8e50b8fa400.jpeg" alt="All Photos for Adams Landscape Management Group LLC. in Loganville, GA" loading="lazy"/>
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/036698b8-65ab-40ab-aa68-55067eb53cc8.jpeg" alt="All Photos for Adams Landscape Management Group LLC. in Loganville, GA" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
@@ -3147,6 +3147,30 @@
                               >
                           </li>
                           
+                          <li>
+                              <a
+                                  href="#"
+                                  class="p-1 text-base text-gray-100 rounded hover:text-gray-300 focus:ring-2 focus:outline-none ring-white ring-opacity-75"
+                                  >Gwinnett, GA</a
+                              >
+                          </li>
+                          
+                          <li>
+                              <a
+                                  href="#"
+                                  class="p-1 text-base text-gray-100 rounded hover:text-gray-300 focus:ring-2 focus:outline-none ring-white ring-opacity-75"
+                                  >Walton, GA</a
+                              >
+                          </li>
+                          
+                          <li>
+                              <a
+                                  href="#"
+                                  class="p-1 text-base text-gray-100 rounded hover:text-gray-300 focus:ring-2 focus:outline-none ring-white ring-opacity-75"
+                                  >Rockdale County, GA</a
+                              >
+                          </li>
+                          
                       </ul>
                   </div>
                   <!-- Hours Links -->
@@ -3166,7 +3190,7 @@
                               <a
                                   href="#"
                                   class="p-1 text-base text-gray-100 rounded  hover:text-gray-300 focus:ring-2 focus:outline-none ring-white ring-offset-2 ring-opacity-75"
-                                  >Mon: 08:00am - 06:00pm</a
+                                  >Mon: 8:00am - 6:00pm</a
                               >
                           </li>
                           
@@ -3174,7 +3198,7 @@
                               <a
                                   href="#"
                                   class="p-1 text-base text-gray-100 rounded  hover:text-gray-300 focus:ring-2 focus:outline-none ring-white ring-offset-2 ring-opacity-75"
-                                  >Tues: 8:00am - 6:00pm</a
+                                  >Tues: 08:00am - 06:00pm</a
                               >
                           </li>
                           
@@ -3387,122 +3411,122 @@
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-164777"
-                                            name="164777"
+                                            id="contact-service-166040"
+                                            name="166040"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-164777" class="ml-3 text-sm font-medium text-gray-700">Lawn Maintenance</label>
+                                        <label for="contact-label-service-166040" class="ml-3 text-sm font-medium text-gray-700">Lawn Maintenance</label>
                                     </div>
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-164778"
-                                            name="164778"
+                                            id="contact-service-166041"
+                                            name="166041"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-164778" class="ml-3 text-sm font-medium text-gray-700">Fall and Spring Clean Ups</label>
+                                        <label for="contact-label-service-166041" class="ml-3 text-sm font-medium text-gray-700">Fall and Spring Clean Ups</label>
                                     </div>
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-164779"
-                                            name="164779"
+                                            id="contact-service-166042"
+                                            name="166042"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-164779" class="ml-3 text-sm font-medium text-gray-700">Junk Removal</label>
+                                        <label for="contact-label-service-166042" class="ml-3 text-sm font-medium text-gray-700">Junk Removal</label>
                                     </div>
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-164780"
-                                            name="164780"
+                                            id="contact-service-166043"
+                                            name="166043"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-164780" class="ml-3 text-sm font-medium text-gray-700">Landscape Construction</label>
+                                        <label for="contact-label-service-166043" class="ml-3 text-sm font-medium text-gray-700">Landscape Construction</label>
                                     </div>
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-164781"
-                                            name="164781"
+                                            id="contact-service-166044"
+                                            name="166044"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-164781" class="ml-3 text-sm font-medium text-gray-700">NDS Drainage Systems</label>
+                                        <label for="contact-label-service-166044" class="ml-3 text-sm font-medium text-gray-700">NDS Drainage Systems</label>
                                     </div>
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-164782"
-                                            name="164782"
+                                            id="contact-service-166045"
+                                            name="166045"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-164782" class="ml-3 text-sm font-medium text-gray-700"> French Drains</label>
+                                        <label for="contact-label-service-166045" class="ml-3 text-sm font-medium text-gray-700"> French Drains</label>
                                     </div>
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-164783"
-                                            name="164783"
+                                            id="contact-service-166046"
+                                            name="166046"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-164783" class="ml-3 text-sm font-medium text-gray-700"> Channel Drains</label>
+                                        <label for="contact-label-service-166046" class="ml-3 text-sm font-medium text-gray-700"> Channel Drains</label>
                                     </div>
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-164784"
-                                            name="164784"
+                                            id="contact-service-166047"
+                                            name="166047"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-164784" class="ml-3 text-sm font-medium text-gray-700">Erosion Control</label>
+                                        <label for="contact-label-service-166047" class="ml-3 text-sm font-medium text-gray-700">Erosion Control</label>
                                     </div>
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-164785"
-                                            name="164785"
+                                            id="contact-service-166048"
+                                            name="166048"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-164785" class="ml-3 text-sm font-medium text-gray-700">Storm Water Management</label>
+                                        <label for="contact-label-service-166048" class="ml-3 text-sm font-medium text-gray-700">Storm Water Management</label>
                                     </div>
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-164786"
-                                            name="164786"
+                                            id="contact-service-166049"
+                                            name="166049"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-164786" class="ml-3 text-sm font-medium text-gray-700">Grading</label>
+                                        <label for="contact-label-service-166049" class="ml-3 text-sm font-medium text-gray-700">Grading</label>
                                     </div>
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-164787"
-                                            name="164787"
+                                            id="contact-service-166050"
+                                            name="166050"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-164787" class="ml-3 text-sm font-medium text-gray-700">Retaining Walls</label>
+                                        <label for="contact-label-service-166050" class="ml-3 text-sm font-medium text-gray-700">Retaining Walls</label>
                                     </div>
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-164788"
-                                            name="164788"
+                                            id="contact-service-166051"
+                                            name="166051"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-164788" class="ml-3 text-sm font-medium text-gray-700">Other Hardscaping Services</label>
+                                        <label for="contact-label-service-166051" class="ml-3 text-sm font-medium text-gray-700">Other Hardscaping Services</label>
                                     </div>
                                 
                             </div>
