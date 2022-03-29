@@ -11,7 +11,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Landscaping &amp; Construction in Loganville, GA | Adams Landscape Management Group LLC. |  Home</title>
-        <meta name="description" content="Adams Landscape Management Group LLC. is a full-service landscaping and construction company serving the Loganville, GA and surrounding areas.">
+        <meta name="description" content="Adams Landscape Management Group LLC.">
         <!-- <title>ProPhone Templates</title> -->
         <!-- TailwindCSS  -->
         <!-- <link rel="stylesheet" type="text/css" href="/staticfiles/landing_page_gen/tailwind.css"> -->
@@ -999,7 +999,7 @@
                         <span class="block xl:inline">Adams Landscape Management Group LLC.</span>
                     </h1>
                     <p class="mt-3 text-base sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-                        The finest Landscaping &amp; Construction service in Loganville and surrounding areas. We provide professional service and offer free quotes. Reach out today to learn how we can help.
+                        The finest Landscaping &amp; Construction service in Loganville, Gwinnett, Walton, Rockdale County and surrounding areas. We provide professional service and offer free quotes. Reach out today to learn how we can help.
                     </p>
                     <div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                         <!-- CTA Secondary -->    
@@ -1339,7 +1339,7 @@
                   <div class="text-primary">
                       <h2 class="text-3xl font-extrabold lg:text-4xl">About Us</h2>
                       <p class="mt-6 text-xl">
-                          Adams Landscape Management Group LLC. is a full-service landscaping and construction company serving the Loganville, GA and surrounding areas. We offer comprehensive services including landscape design, installation, and maintenance as well as construction services such as excavation, grading, and paving. We take pride in our workmanship and strive to provide quality services that meet or exceed our clients&#x27; expectations. You can reach us through the website or call/text us at the following numbers: Landscape Maintenance 678-410-6401 || Landscape Construction: (678) 353-8002
+                          Adams Landscape Management Group LLC. is a full-service landscaping and construction company serving the Loganville, Gwinnett, Walton, Rockdale County and surrounding areas. We offer comprehensive services including landscape design, installation, and maintenance as well as construction services such as excavation, grading, and paving. We take pride in our workmanship and strive to provide quality services that meet or exceed our clients&#x27; expectations. You can reach us through the website or call/text us at the following numbers: Landscape Maintenance 678-410-6401 || Landscape Construction: (678) 353-8002
                           <!-- Caro’s Landscaping and Lawn has been Austin's most trusted service for the past 15 years. We are a customer-first company and you
                           are always a priority. Our team is professional, trained, and ready to take care of all your lawn care needs. -->
                       </p>
@@ -2426,6 +2426,27 @@
                 <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
                     <button @click="activeImage = 2; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
+                            <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/eb35e6c0-3533-4976-b3a7-b8e50b8fa400.jpeg" alt="" /> -->
+                             
+                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/eb35e6c0-3533-4976-b3a7-b8e50b8fa400.jpeg" alt="Lawn Maintenance for Adams Landscape Management Group LLC. in Loganville, GA" loading="lazy"/> 
+                                <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/eb35e6c0-3533-4976-b3a7-b8e50b8fa400.jpeg" alt="" /> -->
+                                <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/x/media/eb35e6c0-3533-4976-b3a7-b8e50b8fa400.jpeg" alt="" /> -->
+                            
+                        </div>
+
+                        <div class="space-y-1 text-lg font-medium leading-6">
+                            <p class="line-clamp-3"></p>
+                            <h3 class="text-primary"></h3>
+                        </div>
+                    </button>
+                </div>
+            </li>
+        
+            <!-- Single Item - We only want to show 3 items on mobile so we check the current index and attach a hidden class if necessary -->
+            <li x-cloak x-data="{ shown: false }" x-intersect.full="shown = true" class=" block ">
+                <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
+                    <button @click="activeImage = 3; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
+                        <div class="aspect-w-3 aspect-h-2">
                             <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/79dcce96-8b78-4bd6-846f-148cad5241c4.jpeg" alt="" /> -->
                              
                                 <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/79dcce96-8b78-4bd6-846f-148cad5241c4.jpeg" alt="Lawn Maintenance for Adams Landscape Management Group LLC. in Loganville, GA" loading="lazy"/> 
@@ -2445,34 +2466,13 @@
             <!-- Single Item - We only want to show 3 items on mobile so we check the current index and attach a hidden class if necessary -->
             <li x-cloak x-data="{ shown: false }" x-intersect.full="shown = true" class=" block ">
                 <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
-                    <button @click="activeImage = 3; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
+                    <button @click="activeImage = 4; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
                             <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/036698b8-65ab-40ab-aa68-55067eb53cc8.jpeg" alt="" /> -->
                              
                                 <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/036698b8-65ab-40ab-aa68-55067eb53cc8.jpeg" alt="Lawn Maintenance for Adams Landscape Management Group LLC. in Loganville, GA" loading="lazy"/> 
                                 <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/036698b8-65ab-40ab-aa68-55067eb53cc8.jpeg" alt="" /> -->
                                 <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/x/media/036698b8-65ab-40ab-aa68-55067eb53cc8.jpeg" alt="" /> -->
-                            
-                        </div>
-
-                        <div class="space-y-1 text-lg font-medium leading-6">
-                            <p class="line-clamp-3"></p>
-                            <h3 class="text-primary"></h3>
-                        </div>
-                    </button>
-                </div>
-            </li>
-        
-            <!-- Single Item - We only want to show 3 items on mobile so we check the current index and attach a hidden class if necessary -->
-            <li x-cloak x-data="{ shown: false }" x-intersect.full="shown = true" class=" block ">
-                <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
-                    <button @click="activeImage = 4; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
-                        <div class="aspect-w-3 aspect-h-2">
-                            <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/eb35e6c0-3533-4976-b3a7-b8e50b8fa400.jpeg" alt="" /> -->
-                             
-                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/eb35e6c0-3533-4976-b3a7-b8e50b8fa400.jpeg" alt="Lawn Maintenance for Adams Landscape Management Group LLC. in Loganville, GA" loading="lazy"/> 
-                                <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/eb35e6c0-3533-4976-b3a7-b8e50b8fa400.jpeg" alt="" /> -->
-                                <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/x/media/eb35e6c0-3533-4976-b3a7-b8e50b8fa400.jpeg" alt="" /> -->
                             
                         </div>
 
@@ -3727,7 +3727,7 @@
                                     <!-- Transition Wrapper 1 -->
                                     <li class="flex flex-col" x-show="activeImage === 2">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/79dcce96-8b78-4bd6-846f-148cad5241c4.jpeg" alt="Lawn Maintenance for Adams Landscape Management Group LLC. in Loganville, GA" loading="lazy"/>
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/eb35e6c0-3533-4976-b3a7-b8e50b8fa400.jpeg" alt="Lawn Maintenance for Adams Landscape Management Group LLC. in Loganville, GA" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
@@ -3735,7 +3735,7 @@
                                     <!-- Transition Wrapper 1 -->
                                     <li class="flex flex-col" x-show="activeImage === 3">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/036698b8-65ab-40ab-aa68-55067eb53cc8.jpeg" alt="Lawn Maintenance for Adams Landscape Management Group LLC. in Loganville, GA" loading="lazy"/>
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/79dcce96-8b78-4bd6-846f-148cad5241c4.jpeg" alt="Lawn Maintenance for Adams Landscape Management Group LLC. in Loganville, GA" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
@@ -3743,7 +3743,7 @@
                                     <!-- Transition Wrapper 1 -->
                                     <li class="flex flex-col" x-show="activeImage === 4">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/eb35e6c0-3533-4976-b3a7-b8e50b8fa400.jpeg" alt="Lawn Maintenance for Adams Landscape Management Group LLC. in Loganville, GA" loading="lazy"/>
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/036698b8-65ab-40ab-aa68-55067eb53cc8.jpeg" alt="Lawn Maintenance for Adams Landscape Management Group LLC. in Loganville, GA" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
@@ -4324,105 +4324,6 @@
                                         />
                                     </svg>
                                     <p lorem="1" class="relative text-lg font-medium">
-                                        Logan and his team did a great job at a very fair price. Communication was excellent with no surprises. As we like to say in the industry the project &quot;was on time and on budget&quot;!  They built a 50&#x27; long retaining wall, back filled it and placed sod on top.
-
-                                    </p>
-                                </div>
-                                <footer class="flex items-center justify-between mt-8 space-x-4">
-                                    <div>
-                                        <span class="block font-medium text-primary">Rob S.</span>
-                                        <span class="block font-medium">Loganville, GA</span>
-                                    </div>
-
-                                    <!-- Social Icon -->
-                                    <div class="flex-shrink-0">
-                                        <span class="sr-only">Facebook</span>
-                                        
-                                        <svg
-                                            aria-hidden="true"
-                                            class="text-blue-900 transition-transform w-7 h-7"
-                                            viewBox="0 0 30 30"
-                                            fill="none"
-                                            xmlns="http://www.w3.org/2000/svg"
-                                        >
-                                            <path
-                                                fill-rule="evenodd"
-                                                clip-rule="evenodd"
-                                                d="M30 15c0-8.285-6.715-15-15-15S0 6.715 0 15c0 7.486 5.486 13.692 12.657 14.817v-10.48h-3.81V15h3.81v-3.305c0-3.759 2.238-5.835 5.666-5.835 1.64 0 3.357.293 3.357.293v3.69h-1.89c-1.865 0-2.445 1.156-2.445 2.343V15h4.159l-.665 4.335h-3.494v10.482C24.514 28.692 30 22.487 30 15Z"
-                                                fill="currentColor"
-                                            />
-                                        </svg>
-                                        
-                                    
-                                    </div>
-                                </footer>
-                            </blockquote>
-                        </li>
-                    
-                    
-                    
-
-                        <!-- Review Item -->
-                        <li class=" hidden sm:block  px-6 py-8 rounded-lg shadow md:px-8 xl:pl-16 xl:pr-6 bg-gray-50">
-                            <!-- Star Rating -->
-                            <div class="flex">
-                                <div aria-hidden="true" class="space-x-1.5 flex">
-                                    <!-- TODO: Simply use a for loop here `for i = 1; i < amountOfStars; i++` -->
-                                    
-                                        <svg class="text-yellow-300" width="30" height="30" fill="none">
-                                            <path
-                                                d="M14.049 2.927c.3-.921 1.603-.921 1.902 0l2.192 6.747a1 1 0 0 0 .951.69h7.094c.969 0 1.372 1.24.588 1.81l-5.74 4.17a1 1 0 0 0-.362 1.117l2.192 6.747c.3.922-.755 1.688-1.54 1.118l-5.738-4.17a1 1 0 0 0-1.176 0l-5.739 4.17c-.784.57-1.838-.197-1.539-1.118l2.192-6.746a1 1 0 0 0-.363-1.119l-5.739-4.17c-.784-.569-.38-1.808.588-1.808h7.094a1 1 0 0 0 .95-.691l2.193-6.747Z"
-                                                fill="currentColor"
-                                            />
-                                        </svg>
-                                    
-                                        <svg class="text-yellow-300" width="30" height="30" fill="none">
-                                            <path
-                                                d="M14.049 2.927c.3-.921 1.603-.921 1.902 0l2.192 6.747a1 1 0 0 0 .951.69h7.094c.969 0 1.372 1.24.588 1.81l-5.74 4.17a1 1 0 0 0-.362 1.117l2.192 6.747c.3.922-.755 1.688-1.54 1.118l-5.738-4.17a1 1 0 0 0-1.176 0l-5.739 4.17c-.784.57-1.838-.197-1.539-1.118l2.192-6.746a1 1 0 0 0-.363-1.119l-5.739-4.17c-.784-.569-.38-1.808.588-1.808h7.094a1 1 0 0 0 .95-.691l2.193-6.747Z"
-                                                fill="currentColor"
-                                            />
-                                        </svg>
-                                    
-                                        <svg class="text-yellow-300" width="30" height="30" fill="none">
-                                            <path
-                                                d="M14.049 2.927c.3-.921 1.603-.921 1.902 0l2.192 6.747a1 1 0 0 0 .951.69h7.094c.969 0 1.372 1.24.588 1.81l-5.74 4.17a1 1 0 0 0-.362 1.117l2.192 6.747c.3.922-.755 1.688-1.54 1.118l-5.738-4.17a1 1 0 0 0-1.176 0l-5.739 4.17c-.784.57-1.838-.197-1.539-1.118l2.192-6.746a1 1 0 0 0-.363-1.119l-5.739-4.17c-.784-.569-.38-1.808.588-1.808h7.094a1 1 0 0 0 .95-.691l2.193-6.747Z"
-                                                fill="currentColor"
-                                            />
-                                        </svg>
-                                    
-                                        <svg class="text-yellow-300" width="30" height="30" fill="none">
-                                            <path
-                                                d="M14.049 2.927c.3-.921 1.603-.921 1.902 0l2.192 6.747a1 1 0 0 0 .951.69h7.094c.969 0 1.372 1.24.588 1.81l-5.74 4.17a1 1 0 0 0-.362 1.117l2.192 6.747c.3.922-.755 1.688-1.54 1.118l-5.738-4.17a1 1 0 0 0-1.176 0l-5.739 4.17c-.784.57-1.838-.197-1.539-1.118l2.192-6.746a1 1 0 0 0-.363-1.119l-5.739-4.17c-.784-.569-.38-1.808.588-1.808h7.094a1 1 0 0 0 .95-.691l2.193-6.747Z"
-                                                fill="currentColor"
-                                            />
-                                        </svg>
-                                    
-                                        <svg class="text-yellow-300" width="30" height="30" fill="none">
-                                            <path
-                                                d="M14.049 2.927c.3-.921 1.603-.921 1.902 0l2.192 6.747a1 1 0 0 0 .951.69h7.094c.969 0 1.372 1.24.588 1.81l-5.74 4.17a1 1 0 0 0-.362 1.117l2.192 6.747c.3.922-.755 1.688-1.54 1.118l-5.738-4.17a1 1 0 0 0-1.176 0l-5.739 4.17c-.784.57-1.838-.197-1.539-1.118l2.192-6.746a1 1 0 0 0-.363-1.119l-5.739-4.17c-.784-.569-.38-1.808.588-1.808h7.094a1 1 0 0 0 .95-.691l2.193-6.747Z"
-                                                fill="currentColor"
-                                            />
-                                        </svg>
-                                    
-                                </div>
-                                <!-- TODO: Add the current amount of stars here -->
-                                <span class="sr-only"> out of 5 stars</span>
-                            </div>
-
-                            <blockquote class="mt-6">
-                                <div class="relative">
-                                    <svg
-                                        aria-hidden="true"
-                                        class="absolute top-0 left-0 w-8 h-8 text-gray-200 -translate-x-3 -translate-y-2"
-                                        fill="none"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                    >
-                                        <path
-                                            d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4Zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4Z"
-                                            fill="currentColor"
-                                        />
-                                    </svg>
-                                    <p lorem="1" class="relative text-lg font-medium">
                                         The team at Adams Property Management did an outstanding job completing my project to include drainage issues, sinkhole and sod installation, etc.  They provided quality work at economical prices and went above and beyond to ensure the job was completed to my satisfaction.  I would highly recommend their services!
 
                                     </p>
@@ -4435,22 +4336,7 @@
 
                                     <!-- Social Icon -->
                                     <div class="flex-shrink-0">
-                                        <span class="sr-only">Facebook</span>
-                                        
-                                        <svg
-                                            aria-hidden="true"
-                                            class="text-blue-900 transition-transform w-7 h-7"
-                                            viewBox="0 0 30 30"
-                                            fill="none"
-                                            xmlns="http://www.w3.org/2000/svg"
-                                        >
-                                            <path
-                                                fill-rule="evenodd"
-                                                clip-rule="evenodd"
-                                                d="M30 15c0-8.285-6.715-15-15-15S0 6.715 0 15c0 7.486 5.486 13.692 12.657 14.817v-10.48h-3.81V15h3.81v-3.305c0-3.759 2.238-5.835 5.666-5.835 1.64 0 3.357.293 3.357.293v3.69h-1.89c-1.865 0-2.445 1.156-2.445 2.343V15h4.159l-.665 4.335h-3.494v10.482C24.514 28.692 30 22.487 30 15Z"
-                                                fill="currentColor"
-                                            />
-                                        </svg>
+                                        <span class="sr-only">None</span>
                                         
                                     
                                     </div>
@@ -4462,7 +4348,7 @@
                     
 
                         <!-- Review Item -->
-                        <li class=" hidden  px-6 py-8 rounded-lg shadow md:px-8 xl:pl-16 xl:pr-6 bg-gray-50">
+                        <li class=" hidden sm:block  px-6 py-8 rounded-lg shadow md:px-8 xl:pl-16 xl:pr-6 bg-gray-50">
                             <!-- Star Rating -->
                             <div class="flex">
                                 <div aria-hidden="true" class="space-x-1.5 flex">
@@ -4536,22 +4422,7 @@ The work is solid, and looks amazing!!  They were extremely detailed- cleaned up
 
                                     <!-- Social Icon -->
                                     <div class="flex-shrink-0">
-                                        <span class="sr-only">Facebook</span>
-                                        
-                                        <svg
-                                            aria-hidden="true"
-                                            class="text-blue-900 transition-transform w-7 h-7"
-                                            viewBox="0 0 30 30"
-                                            fill="none"
-                                            xmlns="http://www.w3.org/2000/svg"
-                                        >
-                                            <path
-                                                fill-rule="evenodd"
-                                                clip-rule="evenodd"
-                                                d="M30 15c0-8.285-6.715-15-15-15S0 6.715 0 15c0 7.486 5.486 13.692 12.657 14.817v-10.48h-3.81V15h3.81v-3.305c0-3.759 2.238-5.835 5.666-5.835 1.64 0 3.357.293 3.357.293v3.69h-1.89c-1.865 0-2.445 1.156-2.445 2.343V15h4.159l-.665 4.335h-3.494v10.482C24.514 28.692 30 22.487 30 15Z"
-                                                fill="currentColor"
-                                            />
-                                        </svg>
+                                        <span class="sr-only">None</span>
                                         
                                     
                                     </div>
@@ -4636,22 +4507,91 @@ Removal of existing  turf to correct drainage issues, installed drainage, 14 pal
 
                                     <!-- Social Icon -->
                                     <div class="flex-shrink-0">
-                                        <span class="sr-only">Facebook</span>
+                                        <span class="sr-only">None</span>
                                         
-                                        <svg
-                                            aria-hidden="true"
-                                            class="text-blue-900 transition-transform w-7 h-7"
-                                            viewBox="0 0 30 30"
-                                            fill="none"
-                                            xmlns="http://www.w3.org/2000/svg"
-                                        >
+                                    
+                                    </div>
+                                </footer>
+                            </blockquote>
+                        </li>
+                    
+                    
+                    
+
+                        <!-- Review Item -->
+                        <li class=" hidden  px-6 py-8 rounded-lg shadow md:px-8 xl:pl-16 xl:pr-6 bg-gray-50">
+                            <!-- Star Rating -->
+                            <div class="flex">
+                                <div aria-hidden="true" class="space-x-1.5 flex">
+                                    <!-- TODO: Simply use a for loop here `for i = 1; i < amountOfStars; i++` -->
+                                    
+                                        <svg class="text-yellow-300" width="30" height="30" fill="none">
                                             <path
-                                                fill-rule="evenodd"
-                                                clip-rule="evenodd"
-                                                d="M30 15c0-8.285-6.715-15-15-15S0 6.715 0 15c0 7.486 5.486 13.692 12.657 14.817v-10.48h-3.81V15h3.81v-3.305c0-3.759 2.238-5.835 5.666-5.835 1.64 0 3.357.293 3.357.293v3.69h-1.89c-1.865 0-2.445 1.156-2.445 2.343V15h4.159l-.665 4.335h-3.494v10.482C24.514 28.692 30 22.487 30 15Z"
+                                                d="M14.049 2.927c.3-.921 1.603-.921 1.902 0l2.192 6.747a1 1 0 0 0 .951.69h7.094c.969 0 1.372 1.24.588 1.81l-5.74 4.17a1 1 0 0 0-.362 1.117l2.192 6.747c.3.922-.755 1.688-1.54 1.118l-5.738-4.17a1 1 0 0 0-1.176 0l-5.739 4.17c-.784.57-1.838-.197-1.539-1.118l2.192-6.746a1 1 0 0 0-.363-1.119l-5.739-4.17c-.784-.569-.38-1.808.588-1.808h7.094a1 1 0 0 0 .95-.691l2.193-6.747Z"
                                                 fill="currentColor"
                                             />
                                         </svg>
+                                    
+                                        <svg class="text-yellow-300" width="30" height="30" fill="none">
+                                            <path
+                                                d="M14.049 2.927c.3-.921 1.603-.921 1.902 0l2.192 6.747a1 1 0 0 0 .951.69h7.094c.969 0 1.372 1.24.588 1.81l-5.74 4.17a1 1 0 0 0-.362 1.117l2.192 6.747c.3.922-.755 1.688-1.54 1.118l-5.738-4.17a1 1 0 0 0-1.176 0l-5.739 4.17c-.784.57-1.838-.197-1.539-1.118l2.192-6.746a1 1 0 0 0-.363-1.119l-5.739-4.17c-.784-.569-.38-1.808.588-1.808h7.094a1 1 0 0 0 .95-.691l2.193-6.747Z"
+                                                fill="currentColor"
+                                            />
+                                        </svg>
+                                    
+                                        <svg class="text-yellow-300" width="30" height="30" fill="none">
+                                            <path
+                                                d="M14.049 2.927c.3-.921 1.603-.921 1.902 0l2.192 6.747a1 1 0 0 0 .951.69h7.094c.969 0 1.372 1.24.588 1.81l-5.74 4.17a1 1 0 0 0-.362 1.117l2.192 6.747c.3.922-.755 1.688-1.54 1.118l-5.738-4.17a1 1 0 0 0-1.176 0l-5.739 4.17c-.784.57-1.838-.197-1.539-1.118l2.192-6.746a1 1 0 0 0-.363-1.119l-5.739-4.17c-.784-.569-.38-1.808.588-1.808h7.094a1 1 0 0 0 .95-.691l2.193-6.747Z"
+                                                fill="currentColor"
+                                            />
+                                        </svg>
+                                    
+                                        <svg class="text-yellow-300" width="30" height="30" fill="none">
+                                            <path
+                                                d="M14.049 2.927c.3-.921 1.603-.921 1.902 0l2.192 6.747a1 1 0 0 0 .951.69h7.094c.969 0 1.372 1.24.588 1.81l-5.74 4.17a1 1 0 0 0-.362 1.117l2.192 6.747c.3.922-.755 1.688-1.54 1.118l-5.738-4.17a1 1 0 0 0-1.176 0l-5.739 4.17c-.784.57-1.838-.197-1.539-1.118l2.192-6.746a1 1 0 0 0-.363-1.119l-5.739-4.17c-.784-.569-.38-1.808.588-1.808h7.094a1 1 0 0 0 .95-.691l2.193-6.747Z"
+                                                fill="currentColor"
+                                            />
+                                        </svg>
+                                    
+                                        <svg class="text-yellow-300" width="30" height="30" fill="none">
+                                            <path
+                                                d="M14.049 2.927c.3-.921 1.603-.921 1.902 0l2.192 6.747a1 1 0 0 0 .951.69h7.094c.969 0 1.372 1.24.588 1.81l-5.74 4.17a1 1 0 0 0-.362 1.117l2.192 6.747c.3.922-.755 1.688-1.54 1.118l-5.738-4.17a1 1 0 0 0-1.176 0l-5.739 4.17c-.784.57-1.838-.197-1.539-1.118l2.192-6.746a1 1 0 0 0-.363-1.119l-5.739-4.17c-.784-.569-.38-1.808.588-1.808h7.094a1 1 0 0 0 .95-.691l2.193-6.747Z"
+                                                fill="currentColor"
+                                            />
+                                        </svg>
+                                    
+                                </div>
+                                <!-- TODO: Add the current amount of stars here -->
+                                <span class="sr-only"> out of 5 stars</span>
+                            </div>
+
+                            <blockquote class="mt-6">
+                                <div class="relative">
+                                    <svg
+                                        aria-hidden="true"
+                                        class="absolute top-0 left-0 w-8 h-8 text-gray-200 -translate-x-3 -translate-y-2"
+                                        fill="none"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4Zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4Z"
+                                            fill="currentColor"
+                                        />
+                                    </svg>
+                                    <p lorem="1" class="relative text-lg font-medium">
+                                        Logan and his team did a great job at a very fair price. Communication was excellent with no surprises. As we like to say in the industry the project &quot;was on time and on budget&quot;!  They built a 50&#x27; long retaining wall, back filled it and placed sod on top.
+
+                                    </p>
+                                </div>
+                                <footer class="flex items-center justify-between mt-8 space-x-4">
+                                    <div>
+                                        <span class="block font-medium text-primary">Rob S.</span>
+                                        <span class="block font-medium">Loganville, GA</span>
+                                    </div>
+
+                                    <!-- Social Icon -->
+                                    <div class="flex-shrink-0">
+                                        <span class="sr-only">None</span>
                                         
                                     
                                     </div>
@@ -4735,22 +4675,7 @@ Removal of existing  turf to correct drainage issues, installed drainage, 14 pal
 
                                     <!-- Social Icon -->
                                     <div class="flex-shrink-0">
-                                        <span class="sr-only">Facebook</span>
-                                        
-                                        <svg
-                                            aria-hidden="true"
-                                            class="text-blue-900 transition-transform w-7 h-7"
-                                            viewBox="0 0 30 30"
-                                            fill="none"
-                                            xmlns="http://www.w3.org/2000/svg"
-                                        >
-                                            <path
-                                                fill-rule="evenodd"
-                                                clip-rule="evenodd"
-                                                d="M30 15c0-8.285-6.715-15-15-15S0 6.715 0 15c0 7.486 5.486 13.692 12.657 14.817v-10.48h-3.81V15h3.81v-3.305c0-3.759 2.238-5.835 5.666-5.835 1.64 0 3.357.293 3.357.293v3.69h-1.89c-1.865 0-2.445 1.156-2.445 2.343V15h4.159l-.665 4.335h-3.494v10.482C24.514 28.692 30 22.487 30 15Z"
-                                                fill="currentColor"
-                                            />
-                                        </svg>
+                                        <span class="sr-only">None</span>
                                         
                                     
                                     </div>
@@ -4841,22 +4766,7 @@ Removal of existing  turf to correct drainage issues, installed drainage, 14 pal
 
                                     <!-- Social Icon -->
                                     <div class="flex-shrink-0">
-                                        <span class="sr-only">Facebook</span>
-                                        
-                                        <svg
-                                            aria-hidden="true"
-                                            class="text-blue-900 transition-transform w-7 h-7"
-                                            viewBox="0 0 30 30"
-                                            fill="none"
-                                            xmlns="http://www.w3.org/2000/svg"
-                                        >
-                                            <path
-                                                fill-rule="evenodd"
-                                                clip-rule="evenodd"
-                                                d="M30 15c0-8.285-6.715-15-15-15S0 6.715 0 15c0 7.486 5.486 13.692 12.657 14.817v-10.48h-3.81V15h3.81v-3.305c0-3.759 2.238-5.835 5.666-5.835 1.64 0 3.357.293 3.357.293v3.69h-1.89c-1.865 0-2.445 1.156-2.445 2.343V15h4.159l-.665 4.335h-3.494v10.482C24.514 28.692 30 22.487 30 15Z"
-                                                fill="currentColor"
-                                            />
-                                        </svg>
+                                        <span class="sr-only">None</span>
                                         
                                     
                                     </div>
@@ -4940,22 +4850,7 @@ Removal of existing  turf to correct drainage issues, installed drainage, 14 pal
 
                                     <!-- Social Icon -->
                                     <div class="flex-shrink-0">
-                                        <span class="sr-only">Facebook</span>
-                                        
-                                        <svg
-                                            aria-hidden="true"
-                                            class="text-blue-900 transition-transform w-7 h-7"
-                                            viewBox="0 0 30 30"
-                                            fill="none"
-                                            xmlns="http://www.w3.org/2000/svg"
-                                        >
-                                            <path
-                                                fill-rule="evenodd"
-                                                clip-rule="evenodd"
-                                                d="M30 15c0-8.285-6.715-15-15-15S0 6.715 0 15c0 7.486 5.486 13.692 12.657 14.817v-10.48h-3.81V15h3.81v-3.305c0-3.759 2.238-5.835 5.666-5.835 1.64 0 3.357.293 3.357.293v3.69h-1.89c-1.865 0-2.445 1.156-2.445 2.343V15h4.159l-.665 4.335h-3.494v10.482C24.514 28.692 30 22.487 30 15Z"
-                                                fill="currentColor"
-                                            />
-                                        </svg>
+                                        <span class="sr-only">None</span>
                                         
                                     
                                     </div>
@@ -5039,22 +4934,7 @@ Removal of existing  turf to correct drainage issues, installed drainage, 14 pal
 
                                     <!-- Social Icon -->
                                     <div class="flex-shrink-0">
-                                        <span class="sr-only">Facebook</span>
-                                        
-                                        <svg
-                                            aria-hidden="true"
-                                            class="text-blue-900 transition-transform w-7 h-7"
-                                            viewBox="0 0 30 30"
-                                            fill="none"
-                                            xmlns="http://www.w3.org/2000/svg"
-                                        >
-                                            <path
-                                                fill-rule="evenodd"
-                                                clip-rule="evenodd"
-                                                d="M30 15c0-8.285-6.715-15-15-15S0 6.715 0 15c0 7.486 5.486 13.692 12.657 14.817v-10.48h-3.81V15h3.81v-3.305c0-3.759 2.238-5.835 5.666-5.835 1.64 0 3.357.293 3.357.293v3.69h-1.89c-1.865 0-2.445 1.156-2.445 2.343V15h4.159l-.665 4.335h-3.494v10.482C24.514 28.692 30 22.487 30 15Z"
-                                                fill="currentColor"
-                                            />
-                                        </svg>
+                                        <span class="sr-only">None</span>
                                         
                                     
                                     </div>
@@ -5138,22 +5018,7 @@ Removal of existing  turf to correct drainage issues, installed drainage, 14 pal
 
                                     <!-- Social Icon -->
                                     <div class="flex-shrink-0">
-                                        <span class="sr-only">Facebook</span>
-                                        
-                                        <svg
-                                            aria-hidden="true"
-                                            class="text-blue-900 transition-transform w-7 h-7"
-                                            viewBox="0 0 30 30"
-                                            fill="none"
-                                            xmlns="http://www.w3.org/2000/svg"
-                                        >
-                                            <path
-                                                fill-rule="evenodd"
-                                                clip-rule="evenodd"
-                                                d="M30 15c0-8.285-6.715-15-15-15S0 6.715 0 15c0 7.486 5.486 13.692 12.657 14.817v-10.48h-3.81V15h3.81v-3.305c0-3.759 2.238-5.835 5.666-5.835 1.64 0 3.357.293 3.357.293v3.69h-1.89c-1.865 0-2.445 1.156-2.445 2.343V15h4.159l-.665 4.335h-3.494v10.482C24.514 28.692 30 22.487 30 15Z"
-                                                fill="currentColor"
-                                            />
-                                        </svg>
+                                        <span class="sr-only">None</span>
                                         
                                     
                                     </div>
@@ -5244,22 +5109,7 @@ Removal of existing  turf to correct drainage issues, installed drainage, 14 pal
 
                                     <!-- Social Icon -->
                                     <div class="flex-shrink-0">
-                                        <span class="sr-only">Facebook</span>
-                                        
-                                        <svg
-                                            aria-hidden="true"
-                                            class="text-blue-900 transition-transform w-7 h-7"
-                                            viewBox="0 0 30 30"
-                                            fill="none"
-                                            xmlns="http://www.w3.org/2000/svg"
-                                        >
-                                            <path
-                                                fill-rule="evenodd"
-                                                clip-rule="evenodd"
-                                                d="M30 15c0-8.285-6.715-15-15-15S0 6.715 0 15c0 7.486 5.486 13.692 12.657 14.817v-10.48h-3.81V15h3.81v-3.305c0-3.759 2.238-5.835 5.666-5.835 1.64 0 3.357.293 3.357.293v3.69h-1.89c-1.865 0-2.445 1.156-2.445 2.343V15h4.159l-.665 4.335h-3.494v10.482C24.514 28.692 30 22.487 30 15Z"
-                                                fill="currentColor"
-                                            />
-                                        </svg>
+                                        <span class="sr-only">None</span>
                                         
                                     
                                     </div>
@@ -5343,22 +5193,7 @@ Removal of existing  turf to correct drainage issues, installed drainage, 14 pal
 
                                     <!-- Social Icon -->
                                     <div class="flex-shrink-0">
-                                        <span class="sr-only">Facebook</span>
-                                        
-                                        <svg
-                                            aria-hidden="true"
-                                            class="text-blue-900 transition-transform w-7 h-7"
-                                            viewBox="0 0 30 30"
-                                            fill="none"
-                                            xmlns="http://www.w3.org/2000/svg"
-                                        >
-                                            <path
-                                                fill-rule="evenodd"
-                                                clip-rule="evenodd"
-                                                d="M30 15c0-8.285-6.715-15-15-15S0 6.715 0 15c0 7.486 5.486 13.692 12.657 14.817v-10.48h-3.81V15h3.81v-3.305c0-3.759 2.238-5.835 5.666-5.835 1.64 0 3.357.293 3.357.293v3.69h-1.89c-1.865 0-2.445 1.156-2.445 2.343V15h4.159l-.665 4.335h-3.494v10.482C24.514 28.692 30 22.487 30 15Z"
-                                                fill="currentColor"
-                                            />
-                                        </svg>
+                                        <span class="sr-only">None</span>
                                         
                                     
                                     </div>
@@ -5442,22 +5277,7 @@ Removal of existing  turf to correct drainage issues, installed drainage, 14 pal
 
                                     <!-- Social Icon -->
                                     <div class="flex-shrink-0">
-                                        <span class="sr-only">Facebook</span>
-                                        
-                                        <svg
-                                            aria-hidden="true"
-                                            class="text-blue-900 transition-transform w-7 h-7"
-                                            viewBox="0 0 30 30"
-                                            fill="none"
-                                            xmlns="http://www.w3.org/2000/svg"
-                                        >
-                                            <path
-                                                fill-rule="evenodd"
-                                                clip-rule="evenodd"
-                                                d="M30 15c0-8.285-6.715-15-15-15S0 6.715 0 15c0 7.486 5.486 13.692 12.657 14.817v-10.48h-3.81V15h3.81v-3.305c0-3.759 2.238-5.835 5.666-5.835 1.64 0 3.357.293 3.357.293v3.69h-1.89c-1.865 0-2.445 1.156-2.445 2.343V15h4.159l-.665 4.335h-3.494v10.482C24.514 28.692 30 22.487 30 15Z"
-                                                fill="currentColor"
-                                            />
-                                        </svg>
+                                        <span class="sr-only">None</span>
                                         
                                     
                                     </div>
@@ -5541,22 +5361,7 @@ Removal of existing  turf to correct drainage issues, installed drainage, 14 pal
 
                                     <!-- Social Icon -->
                                     <div class="flex-shrink-0">
-                                        <span class="sr-only">Facebook</span>
-                                        
-                                        <svg
-                                            aria-hidden="true"
-                                            class="text-blue-900 transition-transform w-7 h-7"
-                                            viewBox="0 0 30 30"
-                                            fill="none"
-                                            xmlns="http://www.w3.org/2000/svg"
-                                        >
-                                            <path
-                                                fill-rule="evenodd"
-                                                clip-rule="evenodd"
-                                                d="M30 15c0-8.285-6.715-15-15-15S0 6.715 0 15c0 7.486 5.486 13.692 12.657 14.817v-10.48h-3.81V15h3.81v-3.305c0-3.759 2.238-5.835 5.666-5.835 1.64 0 3.357.293 3.357.293v3.69h-1.89c-1.865 0-2.445 1.156-2.445 2.343V15h4.159l-.665 4.335h-3.494v10.482C24.514 28.692 30 22.487 30 15Z"
-                                                fill="currentColor"
-                                            />
-                                        </svg>
+                                        <span class="sr-only">None</span>
                                         
                                     
                                     </div>
@@ -5597,7 +5402,7 @@ Removal of existing  turf to correct drainage issues, installed drainage, 14 pal
                                 type="button"
                                 @click="expanded = !expanded"
                                 class="flex items-start justify-between w-full text-left text-white rounded  focus:outline-none focus-visible:ring-2 ring-white"
-                                aria-controls="47172"
+                                aria-controls="47582"
                                 :aria-expanded="expanded"
                             >
                             <span class="font-medium text-white">What&#x27;s the best way to reach you?</span>
@@ -5617,7 +5422,7 @@ Removal of existing  turf to correct drainage issues, installed drainage, 14 pal
                                 </span>
                             </button>
                         </dt>
-                        <dd x-show="expanded" x-cloak x-collapse class="pr-12" id="47172">
+                        <dd x-show="expanded" x-cloak x-collapse class="pr-12" id="47582">
                             <div aria-hidden="true" class="invisible h-2"></div>
                             <p class="mt-2 text-base text-gray-100"> You can reach us through the website or call/text us at the following numbers: Landscape Maintenance 678-410-6401 || Landscape Construction: (678) 353-8002</p>
                         </dd>
@@ -5630,7 +5435,7 @@ Removal of existing  turf to correct drainage issues, installed drainage, 14 pal
                                 type="button"
                                 @click="expanded = !expanded"
                                 class="flex items-start justify-between w-full text-left text-white rounded  focus:outline-none focus-visible:ring-2 ring-white"
-                                aria-controls="47173"
+                                aria-controls="47583"
                                 :aria-expanded="expanded"
                             >
                             <span class="font-medium text-white">Do you provide free estimates?</span>
@@ -5650,7 +5455,7 @@ Removal of existing  turf to correct drainage issues, installed drainage, 14 pal
                                 </span>
                             </button>
                         </dt>
-                        <dd x-show="expanded" x-cloak x-collapse class="pr-12" id="47173">
+                        <dd x-show="expanded" x-cloak x-collapse class="pr-12" id="47583">
                             <div aria-hidden="true" class="invisible h-2"></div>
                             <p class="mt-2 text-base text-gray-100">Yes, we&#x27;ll always estimate the job for free. Just give us a call to get started.</p>
                         </dd>
@@ -5663,7 +5468,7 @@ Removal of existing  turf to correct drainage issues, installed drainage, 14 pal
                                 type="button"
                                 @click="expanded = !expanded"
                                 class="flex items-start justify-between w-full text-left text-white rounded  focus:outline-none focus-visible:ring-2 ring-white"
-                                aria-controls="47174"
+                                aria-controls="47584"
                                 :aria-expanded="expanded"
                             >
                             <span class="font-medium text-white">How are you different?</span>
@@ -5683,7 +5488,7 @@ Removal of existing  turf to correct drainage issues, installed drainage, 14 pal
                                 </span>
                             </button>
                         </dt>
-                        <dd x-show="expanded" x-cloak x-collapse class="pr-12" id="47174">
+                        <dd x-show="expanded" x-cloak x-collapse class="pr-12" id="47584">
                             <div aria-hidden="true" class="invisible h-2"></div>
                             <p class="mt-2 text-base text-gray-100">We&#x27;re a customer-first company that will do whatever it takes to make sure the job is well done.</p>
                         </dd>
@@ -5718,7 +5523,7 @@ Removal of existing  turf to correct drainage issues, installed drainage, 14 pal
             <p id="proudLocation" class="text-xl text-gray-500">
                 <!-- Proudly serving Austin, TX and surrounding areas <br /><br />
                 Georgetown, Round Rock, Bastrop, Marble Falls, Burnet -->
-                Proudly Serving   Loganville & Surrounding Areas  
+                Proudly Serving   Loganville,    Gwinnett,    Walton,    Rockdale County & Surrounding Areas  
             </p>
         </div>
         <!-- Map -->
@@ -6103,6 +5908,30 @@ Removal of existing  turf to correct drainage issues, installed drainage, 14 pal
                               >
                           </li>
                           
+                          <li>
+                              <a
+                                  href="#"
+                                  class="p-1 text-base text-gray-100 rounded hover:text-gray-300 focus:ring-2 focus:outline-none ring-white ring-opacity-75"
+                                  >Gwinnett, GA</a
+                              >
+                          </li>
+                          
+                          <li>
+                              <a
+                                  href="#"
+                                  class="p-1 text-base text-gray-100 rounded hover:text-gray-300 focus:ring-2 focus:outline-none ring-white ring-opacity-75"
+                                  >Walton, GA</a
+                              >
+                          </li>
+                          
+                          <li>
+                              <a
+                                  href="#"
+                                  class="p-1 text-base text-gray-100 rounded hover:text-gray-300 focus:ring-2 focus:outline-none ring-white ring-opacity-75"
+                                  >Rockdale County, GA</a
+                              >
+                          </li>
+                          
                       </ul>
                   </div>
                   <!-- Hours Links -->
@@ -6122,7 +5951,7 @@ Removal of existing  turf to correct drainage issues, installed drainage, 14 pal
                               <a
                                   href="#"
                                   class="p-1 text-base text-gray-100 rounded  hover:text-gray-300 focus:ring-2 focus:outline-none ring-white ring-offset-2 ring-opacity-75"
-                                  >Mon: 08:00am - 06:00pm</a
+                                  >Mon: 8:00am - 6:00pm</a
                               >
                           </li>
                           
@@ -6130,7 +5959,7 @@ Removal of existing  turf to correct drainage issues, installed drainage, 14 pal
                               <a
                                   href="#"
                                   class="p-1 text-base text-gray-100 rounded  hover:text-gray-300 focus:ring-2 focus:outline-none ring-white ring-offset-2 ring-opacity-75"
-                                  >Tues: 8:00am - 6:00pm</a
+                                  >Tues: 08:00am - 06:00pm</a
                               >
                           </li>
                           
@@ -6343,122 +6172,122 @@ Removal of existing  turf to correct drainage issues, installed drainage, 14 pal
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-164777"
-                                            name="164777"
+                                            id="contact-service-166040"
+                                            name="166040"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-164777" class="ml-3 text-sm font-medium text-gray-700">Lawn Maintenance</label>
+                                        <label for="contact-label-service-166040" class="ml-3 text-sm font-medium text-gray-700">Lawn Maintenance</label>
                                     </div>
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-164778"
-                                            name="164778"
+                                            id="contact-service-166041"
+                                            name="166041"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-164778" class="ml-3 text-sm font-medium text-gray-700">Fall and Spring Clean Ups</label>
+                                        <label for="contact-label-service-166041" class="ml-3 text-sm font-medium text-gray-700">Fall and Spring Clean Ups</label>
                                     </div>
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-164779"
-                                            name="164779"
+                                            id="contact-service-166042"
+                                            name="166042"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-164779" class="ml-3 text-sm font-medium text-gray-700">Junk Removal</label>
+                                        <label for="contact-label-service-166042" class="ml-3 text-sm font-medium text-gray-700">Junk Removal</label>
                                     </div>
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-164780"
-                                            name="164780"
+                                            id="contact-service-166043"
+                                            name="166043"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-164780" class="ml-3 text-sm font-medium text-gray-700">Landscape Construction</label>
+                                        <label for="contact-label-service-166043" class="ml-3 text-sm font-medium text-gray-700">Landscape Construction</label>
                                     </div>
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-164781"
-                                            name="164781"
+                                            id="contact-service-166044"
+                                            name="166044"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-164781" class="ml-3 text-sm font-medium text-gray-700">NDS Drainage Systems</label>
+                                        <label for="contact-label-service-166044" class="ml-3 text-sm font-medium text-gray-700">NDS Drainage Systems</label>
                                     </div>
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-164782"
-                                            name="164782"
+                                            id="contact-service-166045"
+                                            name="166045"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-164782" class="ml-3 text-sm font-medium text-gray-700"> French Drains</label>
+                                        <label for="contact-label-service-166045" class="ml-3 text-sm font-medium text-gray-700"> French Drains</label>
                                     </div>
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-164783"
-                                            name="164783"
+                                            id="contact-service-166046"
+                                            name="166046"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-164783" class="ml-3 text-sm font-medium text-gray-700"> Channel Drains</label>
+                                        <label for="contact-label-service-166046" class="ml-3 text-sm font-medium text-gray-700"> Channel Drains</label>
                                     </div>
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-164784"
-                                            name="164784"
+                                            id="contact-service-166047"
+                                            name="166047"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-164784" class="ml-3 text-sm font-medium text-gray-700">Erosion Control</label>
+                                        <label for="contact-label-service-166047" class="ml-3 text-sm font-medium text-gray-700">Erosion Control</label>
                                     </div>
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-164785"
-                                            name="164785"
+                                            id="contact-service-166048"
+                                            name="166048"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-164785" class="ml-3 text-sm font-medium text-gray-700">Storm Water Management</label>
+                                        <label for="contact-label-service-166048" class="ml-3 text-sm font-medium text-gray-700">Storm Water Management</label>
                                     </div>
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-164786"
-                                            name="164786"
+                                            id="contact-service-166049"
+                                            name="166049"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-164786" class="ml-3 text-sm font-medium text-gray-700">Grading</label>
+                                        <label for="contact-label-service-166049" class="ml-3 text-sm font-medium text-gray-700">Grading</label>
                                     </div>
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-164787"
-                                            name="164787"
+                                            id="contact-service-166050"
+                                            name="166050"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-164787" class="ml-3 text-sm font-medium text-gray-700">Retaining Walls</label>
+                                        <label for="contact-label-service-166050" class="ml-3 text-sm font-medium text-gray-700">Retaining Walls</label>
                                     </div>
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-164788"
-                                            name="164788"
+                                            id="contact-service-166051"
+                                            name="166051"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-164788" class="ml-3 text-sm font-medium text-gray-700">Other Hardscaping Services</label>
+                                        <label for="contact-label-service-166051" class="ml-3 text-sm font-medium text-gray-700">Other Hardscaping Services</label>
                                     </div>
                                 
                             </div>
